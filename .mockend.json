@@ -37,5 +37,17 @@
     "coef": {
       "int": { "min": 1, "max": 500 }
     }
+  },
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
