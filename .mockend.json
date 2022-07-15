@@ -23,6 +23,7 @@
       "regexp": "[A-Z][A-Z]"
     }
   },
+  
   "Rate": {
     "from": {
       "int": { "min": 1, "max": 500 }
