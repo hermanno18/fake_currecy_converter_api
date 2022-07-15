@@ -7,7 +7,46 @@
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
     "code": {
-      "regexp": "[A-Z][A-Z]"
+      "string": [
+        "CM",
+        "FR",
+        "CA",
+        "US",
+        "UK",
+        "DE",
+        "TC",
+        "ME",
+        "SE",
+        "NI",
+        "GO",
+        "TE",
+        "FG",
+        "GE",
+        "UM",
+        "NB",
+        "AZ",
+        "QW",
+        "XM",
+        "PO",
+        "JI",
+        "EN",
+        "TJ",
+        "AM",
+        "XB",
+        "SJ",
+        "DS",
+        "QW",
+        "DT",
+        "IJ",
+        "kO",
+        "UT",
+        "JG",
+        "QP",
+        "AX",
+        "TN",
+        "QU",
+        "OG"
+      ]
     },
     "from": {
       "boolean": {}
@@ -20,10 +59,17 @@
       "string": {}
     },
     "code": {
-      "regexp": "[A-Z][A-Z]"
+      "string": [
+        "XFA",
+        "$",
+        "£",
+        "USD",
+        "XFA",
+        "CAD"
+      ]
     }
   },
-  
+
   "Rate": {
     "from": {
       "int": { "min": 1, "max": 500 }
