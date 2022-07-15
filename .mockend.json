@@ -12,7 +12,7 @@
     "from": {
       "boolean": {}
     },
-    "currency": {"belongsTo": "Post"}
+    "currency_id": {"int": { "min": 1, "max": 500 }}
   },
 
   "Currency": {
@@ -21,33 +21,17 @@
     },
     "code": {
       "regexp": "[A-Z][A-Z]"
-    },
-    "countries": {
-      "hasMany": "Country"
     }
   },
   "Rate": {
     "from": {
-      "hasMany": "Country"
+      "int": { "min": 1, "max": 500 }
     },
-    
     "to": {
-      "hasMany": "Country"
+      "int": { "min": 1, "max": 500 } 
     },
     "coef": {
       "int": { "min": 1, "max": 500 }
-    }
-  },
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
     }
   }
 }
